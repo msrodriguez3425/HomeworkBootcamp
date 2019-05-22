@@ -12,7 +12,7 @@
     <title>landing</title>
 </head>
 <body>
-    <nav class ="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class ="navbar navbar-expand-sm navbar-light bg-light">
         <a href="landing.html" class ="navbar-brand">Lattitude</a>
         <div class = "collapse navbar-collapse">
             <ul class = "navbar-nav ml-auto">
@@ -41,36 +41,30 @@
                     <div class="box">
                         
                         <h3 class="header" style="padding: 3px">Summary: Lattitude vs. X</h3>
-
-                        <div class="container">
-                            <div class="col-6">
-                                    
-                            </div>
-                        </div>
-
-                        <p>The aim of this project was to use APIs prove  something that is usually considered to be obvious: How does the weather change as one moves from the poles towards the equator? </p>
+                        <img src="Plots/TempVsLat.png" style="height: 200px">
+                        <p>The aim of this project was to use APIs to prove  something that is usually considered to be obvious: How does the weather change as one moves from the poles towards the equator? </p>
                         <p>I considered 4 variables in order to answer this question: Wind Speed, Temperature, Humidity, and Cloud Cover.</p>
                         <p>I generated a list of 500 cities across the globe and extracted each of the above variables corresponding to each city, along with their lattitudes, from the open weather API. I then created a plot for each variable against lattitude, where each point represents a city.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12">
                     <div class="box">
-                        <h3 class="header">Visualizations</h3>
+                        <h3 class="header" style="padding: 3px">Visualizations</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="col-6">
-                                    <a href=cloudiness.html"><img src="Plots/CloudVsLat.png" alt="CloudsVsLat" class="visphoto"></a>
+                                    <a href="cloudiness.html"><img src="Plots/CloudVsLat.png" alt="CloudsVsLat" class="visphoto"></a>
                                 </div>
                                 <div class="col-6">
-                                    <a href=humidity.html"><img src="Plots/HumVsLat.png" alt="HumVsLat" class="visphoto"></a>
+                                    <a href="humidity.html"><img src="Plots/HumVsLat.png" alt="HumVsLat" class="visphoto"></a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <a href=temperature.html"><img src="Plots/TempVsLat.png" alt="TempVsLat" class="visphoto"></a>
+                                    <a href="temperature.html"><img src="Plots/TempVsLat.png" alt="TempVsLat" class="visphoto"></a>
                                 </div>
                                 <div class="col-6">
-                                    <a href=windspeed.html"><img src="Plots/wSpeedVsLat.png" alt="WindvsLat" class="visphoto"></a>
+                                    <a href="windspeed.html"><img src="Plots/wSpeedVsLat.png" alt="WindvsLat" class="visphoto"></a>
                                 </div>
                             </div>
                         </div>

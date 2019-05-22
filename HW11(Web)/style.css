@@ -23,14 +23,19 @@ h3.header{
     color: #618A82;
 }
 
-img.visphoto{
+div.col-lg-5 img{
     
-    height: 150px;
-    width: 150px;
+    height: 110px;
     background-color: powderblue;
     
 }
 
+
 main{
     background: powderblue;
+}
+
+img.compPlot{
+    height:300px;
+    align-content: center;
 }
