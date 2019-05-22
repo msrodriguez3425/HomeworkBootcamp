@@ -1,0 +1,36 @@
+a.navbar-brand{
+    background-color: rgb(195, 155, 233);
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(219, 180, 180);
+    border-radius: 10%;
+}
+
+div.container{
+    display: inline-block;
+
+    
+
+}
+
+div.box{
+    background-color: white;
+}
+
+
+
+h3.header{
+    color: #618A82;
+}
+
+img.visphoto{
+    
+    height: 150px;
+    width: 150px;
+    background-color: powderblue;
+    
+}
+
+main{
+    background: powderblue;
+}

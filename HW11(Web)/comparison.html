@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class ="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="landing.html" class ="navbar-brand">Lattitude</a>
+        <div class = "collapse navbar-collapse">
+            <ul class = "navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class = "nav-link dropdown-toggle" role = "button" data-toggle = "dropdown">Plots</a>
+                    <div class = "dropdown-menu">
+                        <!--Link to cloudiness vs lattitude-->
+                        <a href="cloudiness.html" class = "dropdown-item">Cloudiness vs. Lattitude</a>
+                        <!--Link to temperature vs Latitude-->
+                        <a href="temperature.html" class = "dropdown-item">Temperature vs. Lattitude</a>
+                        <!--Link to wind speed vs Latitude-->
+                        <a href="windspeed.html" class = "dropdown-item">Wind Speed vs. Lattitude</a>
+                        <!--Link to temperature vs Latitude-->
+                        <a href="humidity.html" class = "dropdown-item">Humidity vs. Lattitude</a>
+                    </div>
+                </li>
+                <li class = "nav-item"><a href="comparison.html" class = "nav-link">Comparison</a></li>
+                <li class = "nav-item"><a href="data.html" class = "nav-link">Data</a></li>
+
+            </ul>
+        </div>
+    </nav>
+   <main>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                    <img src="Plots/CloudVsLat.png" alt="CloudsVsLat">
+               </div>
+               <div class="col-md-6">
+                   <img src="Plots/HumVsLat.png" alt="HumVsLat.png">
+               </div>
+           </div>
+           <div class="row">
+                <div class="col-md-6">
+                    <img src="Plots/TempVsLat.png" alt="TempVsLat">
+                </div>
+                <div class="col-md-6">
+                    <img src="Plots/wSpeedVsLat.png" alt="windspeed">
+                </div>
+           </div>
+       </div>
+   </main>
+    
+</body>
+</html>
