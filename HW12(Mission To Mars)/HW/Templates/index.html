@@ -17,7 +17,7 @@
         <!-- write a for loop that lists out your data and accesses the values using dot notation. -->
           {% for item in dict %}
           <div class="col-lg-12">
-              <div class="card">
+              <div class="card text-left" >
                   <div class="card-body">
                     <h3> Latest Mars News:</h3>
                     <h4 class="card-title">{{ item.latest_news }}</h4>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card" style="width: 20rem;">
+                <div class="card text-left">
                     <div class="card-body">
                       <h3>Featured Image:</h3>
                       <img src = {{item.featured_image}} style="width:300px;">
@@ -37,12 +37,14 @@
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
                     <h3>Facts:</h3>
-                    {{ item.facts }}
+                        <div>
+                        {{item.facts | safe}}
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card" style="width: 20rem;">
+                <div class="card text-left" style="width: 20rem;">
                     <div class="card-body">
                     <h3>Latest Weather:</h3>
                     {{ item.weather }}
