@@ -79,7 +79,7 @@ function buildMetadata(sample) {
     // Grab a reference to the dropdown select element
     var selector = d3.select("#selDataset");
     console.log("Hello!!!!!")
-    // Use the list of sample names to populate the select options
+    // Use the list of sample names to populate the se  lect options
     d3.json("/names").then((sample_names) => {
       
       console.log(sample_names)
